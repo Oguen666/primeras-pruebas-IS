@@ -21,3 +21,7 @@ Porque era sintácticamente correcto y Node solo detecta errores de sintaxis o e
 
 **6. ¿Qué trabajo realizará Jest que hoy realiza comprobar()?**
 Básicamente el mismo: ejecutar los casos, comparar el obtenido con el esperado y reportar si pasó o falló. La diferencia es que Jest trae todo eso ya hecho, con reportes más detallados, agrupación de casos y organización, en vez de tener que programarlo a mano como lo hicimos con comprobar().
+
+## Reflexión
+
+Esta actividad nos permitió volver a darnos cuenta de ciertas cuestiones que nosotros ya conocíamos o que ya teníamos presente, por ejemplo los errores lógicos. Cuando llegamos a esa parte del ejercicio identificamos inmediatamente de qué se trataba, pues la máquina puede ejecutar un cálculo que deja un resultado negativo y no va a arrojar ningún error, pero en el contexto de lo que se está trabajando esas cantidades no tienen sentido. Además la actividad nos mostró el uso y manejo de Node para realizar pruebas que nos auxilian bastante a la hora de checar los resultados esperados, como en la tabla que teníamos de referencia.
