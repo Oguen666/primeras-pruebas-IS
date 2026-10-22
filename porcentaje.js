@@ -1,4 +1,4 @@
 function calcularDescuento(precio, porcentaje) {
-    return precio - (precio * porcentaje / 10); // ERROR INTENCIONAL
+    return precio - (precio * porcentaje / 100);
 }
 module.exports = { calcularDescuento };

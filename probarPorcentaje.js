@@ -1,6 +1,9 @@
 const { calcularDescuento } = require('./porcentaje');
 
-console.log(calcularDescuento(100, 10));
-console.log(calcularDescuento(200, 25));
-console.log(calcularDescuento(100, 0));
-console.log(calcularDescuento(100, 100));
+const resultado = calcularDescuento(100, 10);
+
+if (resultado === 90) {
+    console.log("PRUEBA SUPERADA");
+} else {
+    console.log("PRUEBA FALLIDA");
+}
